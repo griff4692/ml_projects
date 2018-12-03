@@ -21,7 +21,7 @@ For each project, I show a writeup (some written in conference format) of the re
 * My Contribution: equal contributor (team of 3)
 * Description:  For a class on Deep Reinforcement Learning, we explored multi-agent cooperative environments, realistic settings where robots share a common goal. To manage state space explosion, we combined Nash game theory for independent policy selection with Deep Q-Networks and applied the model to 3 custom environments in OpenAI Gym.
 
-## Latent Sentence Level Representation Learning
+## Latent Sentence Level Representation Learning*
 
 * Context: Final Project for "Neural Networks for NLP" class taught by Graham Neubig
 * Course Grade: A
@@ -36,3 +36,5 @@ For each project, I show a writeup (some written in conference format) of the re
 * Project Name: `visual_question_answering`
 * My Contribution: equal contributor (team of 4)
 * Description: We incorporate hard attention over image regions using reinforcement learning, which allows the model to focus on a single ‘glimpse’ at a time in a recurrent manner.  Secondly, we leverage semantic image segmentation maps, which produce pixel-wise semantic labels, to extract glimpse features in the form of semantic histograms.  While not delivering state of the art performance, our approach is guided by intuitive and grounded principles we hope can motivate future research.
+
+* Code unavailable
