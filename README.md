@@ -2,7 +2,7 @@
 
 A central repository for several projects I worked on during my Masters program (Masters of Computational Data Science) at Carnegie Mellon University's Language Technologies Institute (CMU LTI).
 
-For each project, I show a writeup (some written in conference format) of the results of the project, as well as the code.
+For each project, I show a writeup (some drafted using ML conference templates) of the results of the project, as well as the code.
 
 ## Tree Re-Ranker for Question Answering
 
