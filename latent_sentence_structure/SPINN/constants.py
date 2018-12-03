@@ -1,0 +1,3 @@
+PAD = -1
+REDUCE = 0
+SHIFT = 1
