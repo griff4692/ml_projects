@@ -9,7 +9,7 @@ For each project, I show a writeup (some drafted using ML conference templates) 
 * Context: MCDS Capstone Project under advisor Eric Nyberg
 * Course Grade: A+
 * Project Name: `squad_tree_ranker`
-* My Contribution: main contributor (team of 3).  Other two worked primarily on different model.
+* My Contribution: Worked solo on this model (team of 3).  Other two worked on different model.
 * Description: I developed a novel tree-based algorithm to predict answer spans by ranking syntactic constituents.  I had hypothesized that ranking syntactic units, as opposed to predicting span indices with a pointer network, would ensure answer coherence, encourage phrase-level attention, and create a soft learning objective aligned with the F1 evaluation metric.  I used a Tree-LSTM to recursively encode syntax tree nodes.  Then, a co-attention layer fused question and passage before a bi-LSTM pre-order tree traversal modelled dependencies.  The model scored each syntactic unit and maximized the expected F1 score during training.  I added added an ensembled answer verifier to handle unanswerable questions. The single-model system now achieves an official F1 evaluation score of 62.3 on the competitive Stanford Question Answering Dataset 2.0 (SQUAD).
 * Notes: As of December 2018, the model ranks 24th best on the competitive [leaderboard](https://rajpurkar.github.io/SQuAD-explorer/).
 
@@ -18,7 +18,7 @@ For each project, I show a writeup (some drafted using ML conference templates) 
 * Context: Final Project for "Deep Reinforcement Learning & Control" class taught by Ruslan Salakhutdinov
 * Course Grade: A
 * Project Name: `multi_agent_reinforcement_learning`
-* My Contribution: equal contributor (team of 3)
+* My Contribution: Lead contributor (team of 3)
 * Description:  For a class on Deep Reinforcement Learning, we explored multi-agent cooperative environments, realistic settings where robots share a common goal. To manage state space explosion, we combined Nash game theory for independent policy selection with Deep Q-Networks and applied the model to 3 custom environments in OpenAI Gym.
 
 ## Latent Sentence Level Representation Learning
